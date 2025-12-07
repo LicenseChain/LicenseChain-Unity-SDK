@@ -1,4 +1,4 @@
-# LicenseChain Unity SDK
+﻿# LicenseChain Unity SDK
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Unity](https://img.shields.io/badge/Unity-2021.3+-blue.svg)](https://unity.com/)
@@ -7,18 +7,18 @@
 
 Official Unity SDK for LicenseChain - Secure license management for Unity games and applications.
 
-## 🚀 Features
+## ðŸš€ Features
 
-- **🔐 Secure Authentication** - User registration, login, and session management
-- **📜 License Management** - Create, validate, update, and revoke licenses
-- **🛡️ Hardware ID Validation** - Prevent license sharing and unauthorized access
-- **🔔 Webhook Support** - Real-time license events and notifications
-- **📊 Analytics Integration** - Track license usage and performance metrics
-- **⚡ High Performance** - Optimized for Unity's runtime
-- **🔄 Async Operations** - Non-blocking HTTP requests and data processing
-- **🛠️ Easy Integration** - Simple API with comprehensive documentation
+- **ðŸ” Secure Authentication** - User registration, login, and session management
+- **ðŸ“œ License Management** - Create, validate, update, and revoke licenses
+- **ðŸ›¡ï¸ Hardware ID Validation** - Prevent license sharing and unauthorized access
+- **ðŸ”” Webhook Support** - Real-time license events and notifications
+- **ðŸ“Š Analytics Integration** - Track license usage and performance metrics
+- **âš¡ High Performance** - Optimized for Unity's runtime
+- **ðŸ”„ Async Operations** - Non-blocking HTTP requests and data processing
+- **ðŸ› ï¸ Easy Integration** - Simple API with comprehensive documentation
 
-## 📦 Installation
+## ðŸ“¦ Installation
 
 ### Method 1: Unity Package Manager (Recommended)
 
@@ -44,7 +44,7 @@ git submodule add https://github.com/LicenseChain/LicenseChain-Unity-SDK.git Ass
 git submodule update --init --recursive
 ```
 
-## 🚀 Quick Start
+## ðŸš€ Quick Start
 
 ### Basic Setup
 
@@ -250,7 +250,7 @@ private IEnumerator StartWebhookListener()
 }
 ```
 
-## 📚 API Reference
+## ðŸ“š API Reference
 
 ### LicenseChainClient
 
@@ -262,7 +262,7 @@ var config = new LicenseChainConfig
     ApiKey = "your-api-key",
     AppName = "your-app-name",
     Version = "1.0.0",
-    BaseUrl = "https://api.licensechain.com" // Optional
+    BaseUrl = "https://api.licensechain.app" // Optional
 };
 
 var client = new LicenseChainClient(config);
@@ -357,7 +357,7 @@ var trackTask = client.TrackEventAsync(eventName, properties);
 var analyticsTask = client.GetAnalyticsAsync(timeRange);
 ```
 
-## 🔧 Configuration
+## ðŸ”§ Configuration
 
 ### Unity Settings
 
@@ -372,7 +372,7 @@ public class LicenseChainSettings : ScriptableObject
     public string apiKey;
     public string appName;
     public string version;
-    public string baseUrl = "https://api.licensechain.com";
+    public string baseUrl = "https://api.licensechain.app";
     
     [Header("Advanced Settings")]
     public int timeout = 30;
@@ -392,7 +392,7 @@ export LICENSECHAIN_APP_NAME=your-app-name
 export LICENSECHAIN_APP_VERSION=1.0.0
 
 # Optional
-export LICENSECHAIN_BASE_URL=https://api.licensechain.com
+export LICENSECHAIN_BASE_URL=https://api.licensechain.app
 export LICENSECHAIN_DEBUG=true
 ```
 
@@ -404,7 +404,7 @@ var config = new LicenseChainConfig
     ApiKey = "your-api-key",
     AppName = "your-app-name",
     Version = "1.0.0",
-    BaseUrl = "https://api.licensechain.com",
+    BaseUrl = "https://api.licensechain.app",
     Timeout = 30,        // Request timeout in seconds
     Retries = 3,         // Number of retry attempts
     Debug = false,       // Enable debug logging
@@ -412,7 +412,7 @@ var config = new LicenseChainConfig
 };
 ```
 
-## 🛡️ Security Features
+## ðŸ›¡ï¸ Security Features
 
 ### Hardware ID Protection
 
@@ -440,7 +440,7 @@ var validateTask = client.ValidateHardwareIdAsync(licenseKey, hardwareId);
 - Expiration checking
 - Feature-based access control
 
-## 📊 Analytics and Monitoring
+## ðŸ“Š Analytics and Monitoring
 
 ### Event Tracking
 
@@ -478,7 +478,7 @@ if (metricsTask.IsCompletedSuccessfully)
 }
 ```
 
-## 🔄 Error Handling
+## ðŸ”„ Error Handling
 
 ### Custom Exception Types
 
@@ -519,7 +519,7 @@ var config = new LicenseChainConfig
 };
 ```
 
-## 🧪 Testing
+## ðŸ§ª Testing
 
 ### Unit Tests
 
@@ -536,7 +536,7 @@ Unity -batchmode -quit -projectPath . -runTests -testResults results.xml
 # Use Unity Test Runner with integration test category
 ```
 
-## 📝 Examples
+## ðŸ“ Examples
 
 See the `Examples/` directory for complete examples:
 
@@ -544,7 +544,7 @@ See the `Examples/` directory for complete examples:
 - `AdvancedFeaturesExample.cs` - Advanced features and configuration
 - `WebhookIntegrationExample.cs` - Webhook handling
 
-## 🤝 Contributing
+## ðŸ¤ Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -556,18 +556,18 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 4. Install dependencies
 5. Run tests in Unity Test Runner
 
-## 📄 License
+## ðŸ“„ License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
+## ðŸ†˜ Support
 
-- **Documentation**: [https://docs.licensechain.com/unity](https://docs.licensechain.com/unity)
+- **Documentation**: [https://docs.licensechain.app/unity](https://docs.licensechain.app/unity)
 - **Issues**: [GitHub Issues](https://github.com/LicenseChain/LicenseChain-Unity-SDK/issues)
 - **Discord**: [LicenseChain Discord](https://discord.gg/licensechain)
-- **Email**: support@licensechain.com
+- **Email**: support@licensechain.app
 
-## 🔗 Related Projects
+## ðŸ”— Related Projects
 
 - [LicenseChain C# SDK](https://github.com/LicenseChain/LicenseChain-CSharp-SDK)
 - [LicenseChain JavaScript SDK](https://github.com/LicenseChain/LicenseChain-JavaScript-SDK)
@@ -575,4 +575,28 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for the Unity community**
+**Made with â¤ï¸ for the Unity community**
+
+
+## API Endpoints
+
+All endpoints automatically use the /v1 prefix when connecting to https://api.licensechain.app.
+
+### Base URL
+- **Production**: https://api.licensechain.app/v1\n- **Development**: https://api.licensechain.app/v1\n\n### Available Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | /v1/health | Health check |
+| POST | /v1/auth/login | User login |
+| POST | /v1/auth/register | User registration |
+| GET | /v1/apps | List applications |
+| POST | /v1/apps | Create application |
+| GET | /v1/licenses | List licenses |
+| POST | /v1/licenses/verify | Verify license |
+| GET | /v1/webhooks | List webhooks |
+| POST | /v1/webhooks | Create webhook |
+| GET | /v1/analytics | Get analytics |
+
+**Note**: The SDK automatically prepends /v1 to all endpoints, so you only need to specify the path (e.g., /auth/login instead of /v1/auth/login).
+

@@ -14,7 +14,7 @@ namespace LicenseChain.Unity
         public string ApiKey = "";
 
         [Tooltip("Base URL for the LicenseChain API")]
-        public string BaseUrl = "https://api.licensechain.com";
+        public string BaseUrl = "https://api.licensechain.app";
 
         [Tooltip("Request timeout in milliseconds")]
         public int Timeout = 30000;
@@ -121,7 +121,7 @@ namespace LicenseChain.Unity
             return new LicenseChainConfig
             {
                 ApiKey = "",
-                BaseUrl = "https://api.licensechain.com",
+                BaseUrl = "https://api.licensechain.app",
                 Timeout = 30000,
                 Retries = 3,
                 EnableLogging = true,

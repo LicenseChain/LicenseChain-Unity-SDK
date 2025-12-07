@@ -163,7 +163,7 @@ namespace LicenseChain.Unity.Editor
         {
             var config = ScriptableObject.CreateInstance<LicenseChainConfig>();
             config.ApiKey = "";
-            config.BaseUrl = "https://api.licensechain.com";
+            config.BaseUrl = "https://api.licensechain.app";
             config.Timeout = 30000;
             config.Retries = 3;
             config.EnableLogging = true;
@@ -195,13 +195,13 @@ namespace LicenseChain.Unity.Editor
         [MenuItem("LicenseChain/Open Documentation")]
         public static void OpenDocumentation()
         {
-            Application.OpenURL("https://docs.licensechain.com");
+            Application.OpenURL("https://docs.licensechain.app");
         }
 
         [MenuItem("LicenseChain/Open Support")]
         public static void OpenSupport()
         {
-            Application.OpenURL("https://support.licensechain.com");
+            Application.OpenURL("https://support.licensechain.app");
         }
 
         [MenuItem("LicenseChain/Clear Logs")]

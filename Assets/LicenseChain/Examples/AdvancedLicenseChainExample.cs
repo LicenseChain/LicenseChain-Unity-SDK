@@ -39,7 +39,7 @@ namespace LicenseChain.Unity
             var config = new LicenseChainConfig
             {
                 ApiKey = "your-api-key-here",
-                BaseUrl = "https://api.licensechain.com",
+                BaseUrl = "https://api.licensechain.app",
                 Timeout = 30000,
                 Retries = 3,
                 EnableLogging = true

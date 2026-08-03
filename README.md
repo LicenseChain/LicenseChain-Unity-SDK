@@ -7,15 +7,15 @@
 
 Official Unity SDK for LicenseChain - Secure license management for Unity games and applications.
 
-## ðŸš€ Features
+## 🚀 Features
 
 - **ðŸ” Secure Authentication** - User registration, login, and session management
-- **ðŸ“œ License Management** - Create, validate, update, and revoke licenses
+- **📜 License Management** - Create, validate, update, and revoke licenses
 - **ðŸ›¡ï¸ Hardware ID Validation** - Prevent license sharing and unauthorized access
-- **ðŸ”” Webhook Support** - Real-time license events and notifications
-- **ðŸ“Š Analytics Integration** - Track license usage and performance metrics
+- **🔔 Webhook Support** - Real-time license events and notifications
+- **📊 Analytics Integration** - Track license usage and performance metrics
 - **âš¡ High Performance** - Optimized for Unity's runtime
-- **ðŸ”„ Async Operations** - Non-blocking HTTP requests and data processing
+- **🔄 Async Operations** - Non-blocking HTTP requests and data processing
 - **ðŸ› ï¸ Easy Integration** - Simple API with comprehensive documentation
 
 ## License assertion JWT (RS256 + JWKS)
@@ -28,7 +28,7 @@ Successful **`POST /v1/licenses/verify`** may include **`license_token`**, **`li
 
 **Unity:** Add **`System.IdentityModel.Tokens.Jwt`** (and dependencies) and follow **`LicenseAssertion.VerifyLicenseAssertionJwtAsync`** in [LicenseChain-CSharp-SDK](https://github.com/LicenseChain/LicenseChain-CSharp-SDK) (see **`examples/jwks_only/`**), or verify on your backend. See [THIN_CLIENT_PARITY](https://docs.licensechain.app/), [JWKS_EXAMPLE_PRIORITY](https://docs.licensechain.app/), and the operator quickref [JWKS_THIN_CLIENT_QUICKREF](https://docs.licensechain.app/).
 
-## ðŸ“¦ Installation
+## 📦 Installation
 
 ### Method 1: Unity Package Manager (Recommended)
 
@@ -54,7 +54,7 @@ git submodule add https://github.com/LicenseChain/LicenseChain-Unity-SDK.git Ass
 git submodule update --init --recursive
 ```
 
-## ðŸš€ Quick Start
+## 🚀 Quick Start
 
 ### Basic Setup
 
@@ -128,7 +128,7 @@ New Unity integrations should use `LicenseChainApiV1Client` and the API v1 examp
 
 The legacy manager was intentionally not normalized to `https://api.licensechain.app/v1`, because changing its transport shape would alter a separate compatibility surface rather than the supported API v1 client.
 
-## ðŸ“š API Reference
+## 📚 API Reference
 
 ### LicenseChainApiV1Client
 
@@ -173,7 +173,7 @@ var usageTask = client.GetUsageStatsAsync(appId, "30d");
 var licenseAnalyticsTask = client.GetLicenseAnalyticsAsync(licenseId);
 ```
 
-## ðŸ”§ Configuration
+## 🔧 Configuration
 
 ### Unity Settings
 
@@ -235,7 +235,7 @@ var config = new LicenseChainConfig
 - Real-time license validation
 - Expiration checking
 
-## ðŸ“Š Analytics and Monitoring
+## 📊 Analytics and Monitoring
 
 ### Stats Queries
 
@@ -246,7 +246,7 @@ Debug.Log(stats.ToString());
 Debug.Log(usage.ToString());
 ```
 
-## ðŸ”„ Error Handling
+## 🔄 Error Handling
 
 ### Custom Exception Types
 
@@ -281,7 +281,7 @@ var config = new LicenseChainConfig
 };
 ```
 
-## ðŸ§ª Testing
+## 🧪 Testing
 
 ### Unit Tests
 
@@ -317,18 +317,18 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 4. Install dependencies
 5. Run tests in Unity Test Runner
 
-## ðŸ“„ License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ðŸ†˜ Support
+## 🆘 Support
 
 - **Documentation**: [https://docs.licensechain.app/unity](https://docs.licensechain.app/unity)
 - **Issues**: [GitHub Issues](https://github.com/LicenseChain/LicenseChain-Unity-SDK/issues)
 - **Discord**: [LicenseChain Discord](https://discord.gg/licensechain)
 - **Email**: support@licensechain.app
 
-## ðŸ”— Related Projects
+## 🔗 Related Projects
 
 - [LicenseChain C# SDK](https://github.com/LicenseChain/LicenseChain-CSharp-SDK)
 - [LicenseChain JavaScript SDK](https://github.com/LicenseChain/LicenseChain-JavaScript-SDK)

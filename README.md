@@ -9,7 +9,7 @@ Official Unity SDK for LicenseChain - Secure license management for Unity games 
 
 ## 🚀 Features
 
-- **ðŸ” Secure Authentication** - User registration, login, and session management
+- **🔐 Secure Authentication** - User registration, login, and session management
 - **📜 License Management** - Create, validate, update, and revoke licenses
 - **🛡 Hardware ID Validation** - Prevent license sharing and unauthorized access
 - **🔔 Webhook Support** - Real-time license events and notifications
@@ -298,14 +298,14 @@ Unity -batchmode -quit -projectPath . -runTests -testResults results.xml
 # Use Unity Test Runner with integration test category
 ```
 
-## ðŸ“ Examples
+## 📝 Examples
 
 See the `Examples/` directory for complete examples:
 
 - `LicenseChainExample.cs` - Basic SDK usage
 - `AdvancedLicenseChainExample.cs` - Advanced API v1 usage
 
-## ðŸ¤ Contributing
+## 🤝 Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 

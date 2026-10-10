@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2] - 2026-10-10
+
+- Added GitHub Actions CI workflow so Dependabot Actions updates have a target.
+- Added GitHub Actions CI skeleton for manifest validation (Unity Editor still required for playmode/editmode tests).
+- Dependabot `github-actions` ecosystem now has a workflow file to target.
+
+
 ## [1.0.1] - 2026-10-10
 
 - Relicensed public surface under Elastic License 2.0 (ELv2).

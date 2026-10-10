@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Validate package manifests
+        run: |
+          test -f Packages/manifest.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          m=json.loads(Path('Packages/manifest.json').read_text())
+          print('dependencies', len(m.get('dependencies', {})))
+          print('Unity package manifest OK')
+          PY
+      - name: Document Editor baseline
+        run: |
+          grep -q '2022.3' CHANGELOG.md ROADMAP.md || (echo 'missing Unity 2022.3 baseline note' && exit 1)
+          echo 'Unity Editor validation requires macOS/Windows runner with Unity 2022.3.7f1 LTS'

@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1] - 2026-10-10
+
+- Relicensed public surface under Elastic License 2.0 (ELv2).
+- Documented Unity Editor baseline `2022.3.7f1` LTS (no Editor bump without Unity Editor validation). Runtime scripting aligns with .NET Standard 2.1 / Unity 2022.3 conventions.
+- Added Dependabot for GitHub Actions.
+
 All notable changes to this SDK are documented in this file.
 
 

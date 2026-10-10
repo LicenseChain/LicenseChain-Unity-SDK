@@ -86,3 +86,8 @@ CLAUDE.md
 .vscode/
 *.swp
 *.swo
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/

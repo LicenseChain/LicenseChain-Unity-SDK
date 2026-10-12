@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.3] - 2026-10-12
+
+- Added Assets/LicenseChain/package.json for Unity Package Manager / OpenUPM installs.
+
+
 ## [1.0.2] - 2026-10-10
 
 - Added GitHub Actions CI workflow so Dependabot Actions updates have a target.

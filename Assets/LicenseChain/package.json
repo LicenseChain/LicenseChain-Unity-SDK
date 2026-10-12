@@ -1,6 +1,6 @@
 {
   "name": "com.licensechain.sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "displayName": "LicenseChain SDK",
   "description": "Official LicenseChain Unity SDK for license management and validation",
   "unity": "2022.3",

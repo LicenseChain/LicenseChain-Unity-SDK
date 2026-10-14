@@ -3,7 +3,8 @@
 [![License](https://img.shields.io/badge/license-Elastic--2.0-blue.svg)](LICENSE)
 [![Unity](https://img.shields.io/badge/Unity-2021.3+-blue.svg)](https://unity.com/)
 [![C#](https://img.shields.io/badge/C%23-8.0+-blue.svg)](https://docs.microsoft.com/en-us/dotnet/csharp/)
-[![Package Manager](https://img.shields.io/badge/Package%20Manager-1.0+-green.svg)](https://docs.unity3d.com/Manual/Packages.html)
+[![OpenUPM](https://img.shields.io/npm/v/com.licensechain.sdk?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.licensechain.sdk/)
+[![CI](https://github.com/LicenseChain/LicenseChain-Unity-SDK/actions/workflows/ci.yml/badge.svg)](https://github.com/LicenseChain/LicenseChain-Unity-SDK/actions/workflows/ci.yml)
 
 Official Unity SDK for LicenseChain - Secure license management for Unity games and applications.
 
@@ -336,7 +337,6 @@ This project is licensed under the Elastic License 2.0 (ELv2) — see the [LICEN
 
 **Made with ❤️ for the Unity community**
 
-
 ## API Endpoints
 
 Use the canonical API base URL `https://api.licensechain.app/v1` for the API v1 client. The REST client also accepts the root host and normalizes requests to the same API version.
@@ -363,7 +363,6 @@ Use the canonical API base URL `https://api.licensechain.app/v1` for the API v1 
 | GET | /v1/analytics/stats | Get analytics |
 
 **Note**: The SDK automatically prepends /v1 to all endpoints, so you only need to specify the path (e.g., /auth/login instead of /v1/auth/login).
-
 
 ## LicenseChain API (v1)
 

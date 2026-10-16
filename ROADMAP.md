@@ -4,15 +4,15 @@
 
 - Keep API v1 defaults aligned with `https://api.licensechain.app/v1`.
 - Maintain thin-client guidance and C# parity for JWT/JWKS verification.
-- Preserve compatibility with current verification response contracts.
+- Keep UPM/`Assets/LicenseChain/package.json` metadata ready for OpenUPM installs.
 
 ## Next Operational Tasks
 
-- Re-run conformance and sample checks after Core API contract changes.
-- Keep Unity thin-client docs aligned with workspace parity guidance.
-- Record notable updates in `CHANGELOG.md`.
+- Re-run conformance checks after Core API verify/JWKS contract updates.
+- Keep docs and examples synchronized with https://docs.licensechain.app/en/sdk.
+- Record release-impacting changes in `CHANGELOG.md`; develop experiments on `dev`, release from `main`.
 
-## Toolchain Currency (2026-10)
+## Ecosystem Notes
 
 - Current validated Editor pin: Unity 2022.3 LTS.
-- Evaluate Unity 6 LTS migration after EditMode regression coverage is available in CI.
+- Evaluate Unity 6 LTS migration only after EditMode regression coverage is available in CI.

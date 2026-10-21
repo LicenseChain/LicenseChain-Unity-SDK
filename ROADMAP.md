@@ -21,5 +21,6 @@
 
 ## Ecosystem Notes
 
+- Local Linux hosts lack Unity Editor; EditMode/batchmode tests (`Unity -batchmode -runTests`) require a Unity 2022.3+ install.
 - Current validated Editor pin: Unity 2022.3 LTS.
 - Evaluate Unity 6 LTS migration only after EditMode regression coverage is available in CI.

@@ -1,6 +1,6 @@
 # LicenseChain Unity SDK
 
-[![License](https://img.shields.io/badge/license-Elastic--2.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Unity](https://img.shields.io/badge/Unity-2021.3+-blue.svg)](https://unity.com/)
 [![C#](https://img.shields.io/badge/C%23-8.0+-blue.svg)](https://docs.microsoft.com/en-us/dotnet/csharp/)
 [![OpenUPM](https://img.shields.io/npm/v/com.licensechain.sdk?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.licensechain.sdk/)
@@ -342,7 +342,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 📄 License
 
-This project is licensed under the Elastic License 2.0 (ELv2) — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License (ELv2) — see the [LICENSE](LICENSE) file for details.
 
 ## 🆘 Support
 
